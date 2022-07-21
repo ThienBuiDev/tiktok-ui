@@ -1,7 +1,6 @@
 import React, { Component, useContext } from 'react'
 import { ThemeContext } from './App'
 function Content2() {
-	console.log('content2: ')
 	const theme = useContext(ThemeContext)
 	return (
 		<div>

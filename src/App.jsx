@@ -17,7 +17,6 @@ const App = () => {
 						} else {
 							Layout = route.layout
 						}
-						console.log(typeof Layout)
 						return (
 							<Route
 								key={route.path}

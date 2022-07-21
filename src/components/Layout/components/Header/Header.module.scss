@@ -12,13 +12,11 @@
 	justify-content: space-between;
 	align-items: center;
 }
-
-svg {
-}
-
-
-.search {
+.search,
+.search-result {
 	width: 361px;
+}
+.search {
 	height: 46px;
 	background-color: rgba(22, 24, 35, 0.06);
 	border: 1.5px solid rgba(22, 24, 35, 0.06);
@@ -43,6 +41,13 @@ svg {
 			color: black;
 		}
 	}
+}
+
+.search-title {
+	font-size: 1.4rem;
+	color: rgba(22, 24, 35, 0.5);
+	font-weight: 600;
+	padding: 8px 12px;
 }
 
 .clear {
