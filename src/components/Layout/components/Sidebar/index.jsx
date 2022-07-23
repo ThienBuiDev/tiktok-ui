@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind'
 import style from './Sidebar.module.scss'
-
+import Button from '../Button'
 const cx = classNames.bind(style)
 
 const Sidebar = () => {

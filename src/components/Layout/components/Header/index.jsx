@@ -5,6 +5,7 @@ import { faCircleXmark, faSpinner, faMagnifyingGlass } from '@fortawesome/free-s
 import Tippy from '@tippyjs/react/headless'
 import 'tippy.js/dist/tippy.css' // optional
 
+import Button from '../Button'
 import style from './Header.module.scss'
 import images from '../../../../assets/images'
 import { Wrapper as PopperWrapper } from '../Popper'
@@ -49,7 +50,14 @@ const Header = () => {
 					</div>
 				</Tippy>
 
-				<div className={cx('actions')}></div>
+				<div className={cx('actions')}>
+					<Button type='text' size='medium' target='_blank'>
+						Upload
+					</Button>
+					<Button type='primary' size='medium' target='_blank' className={cx('custom-login')} rounded>
+						Log in
+					</Button>
+				</div>
 			</div>
 		</header>
 	)
